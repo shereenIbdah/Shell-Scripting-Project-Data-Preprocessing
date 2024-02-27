@@ -1,2 +1,2 @@
-# Linux-Pro1
+# Linux-Shell Scripting Project
 Shell Scripting Project – Data Preprocessing
