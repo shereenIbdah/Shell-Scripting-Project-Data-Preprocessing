@@ -1,31 +1,39 @@
 # Linux-Shell Scripting Project
 Shell Scripting Project – Data Preprocessing
+A shell scripting project for data preprocessing, implemented as part of the ENCS3130 Linux Laboratory course at Birzeit University. This script provides an interactive command-line interface to handle encoding and scaling operations on tabular datasets (semicolon-separated).
 
- Bash Dataset Preprocessing Tool
-This project is an interactive Bash-based preprocessing tool designed to perform essential data preparation tasks directly from the terminal. It enables users to:
+📁 Features
+✅ Dataset Import and Validation
+Read dataset files, check formatting, and ensure consistency.
 
- Load datasets (CSV-like format using ; as delimiter)
+📄 Print Feature Names
+View all dataset column headers.
 
- Display feature (column) names
+🔠 Label Encoding
+Replace categorical values with numeric codes.
 
-Apply Label Encoding for categorical features
+🟩 One-Hot Encoding
+Transform categorical features into multiple binary columns.
 
-Perform One-Hot Encoding
+📊 Min-Max Scaling
+Normalize numeric features using the standard scaling formula.
 
-Apply Min-Max Scaling for numerical data
+💾 Save Processed Dataset
+Save the transformed dataset to a file.
 
- Save the processed dataset
+🔁 Exit Handling
+Prevent accidental exit without saving changes.
 
- Built-in error handling for file existence, readability, and format validation
+🧪 Dataset Format
+Data must be clean (no missing values or invalid types).
 
-Key Features:
+Columns are separated by a semicolon ;.
 
-Fully interactive command-line interface
+The first row must contain column names.
 
-Uses associative arrays (hashmaps) for mapping categorical data
+📌 Example Use Cases
+Preprocessing before feeding data into machine learning models.
 
-Supports Min-Max normalization for numeric columns
+Encoding categorical data in lightweight, CLI-based environments.
 
-Outputs intermediate steps and results in separate files (final.txt, scale.txt, etc.)
-
-🛠 Use case: Useful for basic preprocessing tasks in machine learning or data analysis pipelines when working in shell environments without Python or external libraries.
+Educational tool for understanding shell scripting applied to real-world problems.
