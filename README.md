@@ -3,6 +3,7 @@ Shell Scripting Project – Data Preprocessing
 A shell scripting project for data preprocessing, implemented as part of the ENCS3130 Linux Laboratory course at Birzeit University. This script provides an interactive command-line interface to handle encoding and scaling operations on tabular datasets (semicolon-separated).
 
 📁 Features
+
 ✅ Dataset Import and Validation
 Read dataset files, check formatting, and ensure consistency.
 
